@@ -1,0 +1,31 @@
+<div>
+    <section class="align-items-center bg-warning d-flex justify-content-end pe-4 w-100">
+        <mat-form-field class="m-2 me-4 location-select" appearance="outline">
+            <mat-label>Location</mat-label>
+            <mat-select [value]="'pune'">
+              <mat-option ng-size=8 value="pune">Pune</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <div class="d-flex align-items-center">
+            <mat-icon class="me-1">phone</mat-icon>
+            <b>+91-{{phoneNum}}</b>
+        </div>
+    </section>
+    <div class="w-100">
+        <mat-toolbar>
+            <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                <mat-icon>menu</mat-icon>
+            </button>
+            <span>RentalBee</span>
+            <span class="example-spacer"></span>
+            <div class="">
+                <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                    <mat-icon>share</mat-icon>
+                </button>
+                <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                    <mat-icon>phone</mat-icon>
+                </button>
+            </div>
+        </mat-toolbar>
+    </div>
+</div>
